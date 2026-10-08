@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Kacho Zuhaib Hassan | Odoo Developer & ERP Developer</title>
+  <meta name="title" content="Kacho Zuhaib Hassan | Odoo Developer & ERP Developer">
+  <meta name="description" content="Portfolio of Kacho Zuhaib Hassan, an Odoo Developer specializing in custom Odoo modules, ERP customization, integrations, business workflows, and practical Odoo solutions.">
+  <meta name="keywords" content="Kacho Zuhaib Hassan, Odoo Developer, ERP Developer, Python, Odoo Modules, FlibTech, Odoo Customization, Odoo ORM, PostgreSQL, QWeb, Business Workflows, Asana Odoo Integration">
+  <meta name="author" content="Kacho Zuhaib Hassan">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0e17">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kacho Zuhaib Hassan | Odoo Developer & ERP Developer">
+  <meta property="og:description" content="Building practical Odoo solutions through custom modules, business workflows, ERP customization, integrations, and clean problem-solving.">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Kacho Zuhaib Hassan | Odoo Developer & ERP Developer">
+  <meta property="twitter:description" content="Building practical Odoo solutions through custom modules, business workflows, ERP customization, integrations, and clean problem-solving.">
+
+  <!-- Structured Data JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kacho Zuhaib Hassan",
+    "jobTitle": "Odoo Developer | ERP Developer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "FlibTech"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Iqra University"
+    },
+    "email": "zuhaibkacho12@gmail.com",
+    "telephone": "+923114069952",
+    "sameAs": [
+      "https://www.linkedin.com/in/kacho-zuhaib/",
+      "https://github.com/zuhaibkacho14"
+    ],
+    "knowsAbout": [
+      "Odoo Development",
+      "Python",
+      "Odoo ORM",
+      "PostgreSQL",
+      "ERP Solutions",
+      "Custom Odoo Modules",
+      "Asana Integration",
+      "XML Views",
+      "QWeb Reports",
+      "C# .NET"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Background 3D Canvas & Tech Grid -->
+  <div id="journey-canvas-container" aria-hidden="true"></div>
+  <div class="ambient-grid-pattern" aria-hidden="true"></div>
+
+  <!-- Sticky Navigation Bar -->
+  <header class="sticky-navbar" id="main-navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Kacho Zuhaib Hassan Home">
+        <div class="brand-badge">KZH</div>
+        <div class="brand-info">
+          <span class="brand-name">Kacho Zuhaib Hassan</span>
+          <span class="brand-title">Odoo Developer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links-desktop">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#what-i-build" class="nav-link">Overview</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#odoo-modules" class="nav-link">Odoo Modules</a></li>
+          <li><a href="#expertise" class="nav-link">Expertise</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right CTAs & Toggles -->
+      <div class="nav-right-actions">
+        <!-- Reduced Motion Toggle -->
+        <button type="button" class="btn-motion-toggle" id="motion-toggle-btn" title="Toggle 3D Motion" aria-label="Toggle 3D Animation">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          <span class="sr-only">Toggle Motion</span>
+        </button>
+
+        <a href="#contact" class="btn-nav-cta">
+          <span>Let's Connect</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="btn-hamburger" id="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation">
+      <a href="#hero" class="nav-link">Home</a>
+      <a href="#what-i-build" class="nav-link">Overview</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#odoo-modules" class="nav-link">Odoo Modules</a>
+      <a href="#expertise" class="nav-link">Expertise</a>
+      <a href="#how-i-work" class="nav-link">How I Work</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </header>
+
+  <!-- Journey Milestone HUD Pill (Floating indicator) -->
+  <aside class="journey-hud-pill" aria-live="polite">
+    <span class="hud-indicator-dot"></span>
+    <span>Destination: <strong id="journey-current-milestone" class="hud-title">Introduction</strong></span>
+  </aside>
+
+  <!-- Main Content Wrapper -->
+  <main class="content-wrapper">
+
+    <!-- =======================================================================
+         1. HERO SECTION (Requirement 4 & 5)
+         ======================================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="section-container">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot-pulse"></span>
+            <span>Available for Odoo ERP Solutions & Collaborations</span>
+          </div>
+
+          <h1 class="hero-title">Kacho Zuhaib Hassan</h1>
+          <p class="hero-subtitle-role">Odoo Developer | ERP Developer</p>
+
+          <p class="hero-supporting-text">
+            Building practical Odoo solutions through custom modules, business workflows, ERP customization, integrations, and clean problem-solving.
+          </p>
+
+          <div class="hero-actions-row">
+            <a href="#projects" class="btn-primary-action">
+              <span>View My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </a>
+
+            <a href="#contact" class="btn-secondary-action">
+              <span>Let's Connect</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </a>
+          </div>
+
+          <!-- Direct Social Links -->
+          <div class="hero-social-row">
+            <a href="https://www.linkedin.com/in/kacho-zuhaib/" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="https://github.com/zuhaibkacho14" target="_blank" rel="noopener noreferrer" class="social-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="mailto:zuhaibkacho12@gmail.com" class="social-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Email</span>
+            </a>
+
+            <a href="https://wa.me/923114069952?text=Hello%20Kacho%20Zuhaib,%20I%20would%20like%20to%20discuss%20an%20Odoo%20opportunity." target="_blank" rel="noopener noreferrer" class="social-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="hero-scroll-prompt">
+            <div class="scroll-line-indicator"></div>
+            <span>Scroll or choose a destination to travel along the road</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         2. WHAT I BUILD SECTION (Requirement 20)
+         ======================================================================= -->
+    <section id="what-i-build">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>01 — Core Focus</span>
+        </div>
+        <h2 class="section-heading-primary">What I Build</h2>
+        <p class="section-lead-text">
+          Focusing on practical ERP engineering that empowers business operations rather than theoretical code exercises.
+        </p>
+
+        <div class="what-i-build-grid" id="what-i-build-grid">
+          <!-- Populated by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. ABOUT SECTION (Requirement 9)
+         ======================================================================= -->
+    <section id="about">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>02 — About Destination</span>
+        </div>
+        <h2 class="section-heading-primary">Building Odoo Solutions That Solve Real Business Problems</h2>
+        
+        <div class="about-grid-layout">
+          <div class="about-text-content glass-panel">
+            <p>
+              I am an Odoo Developer focused on developing and customizing ERP solutions that streamline operational processes. My work centers on translating complex company requirements into clean, dependable business logic inside the Odoo ecosystem.
+            </p>
+            <p>
+              From architecting custom models to setting up multi-tiered record rules, scheduled cron actions, and external API integrations, I build modules that align with organizational workflows without introducing friction or performance bottlenecks.
+            </p>
+
+            <h4 style="font-size: 1rem; color: #ffffff; margin-top: 28px; margin-bottom: 12px; font-weight: 700;">
+              Key Areas of Development:
+            </h4>
+            <div class="about-capabilities-grid">
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Custom Odoo Modules</span>
+              </div>
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Odoo Model Development</span>
+              </div>
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Business Workflows</span>
+              </div>
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Views & QWeb Reports</span>
+              </div>
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Access Rights & Record Rules</span>
+              </div>
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Portal Functionality</span>
+              </div>
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Odoo Integrations & APIs</span>
+              </div>
+              <div class="capability-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Debugging & Maintenance</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional Context Sidebar -->
+          <div class="about-sidebar-card">
+            <div class="about-metric-block">
+              <div class="metric-label">Current Role</div>
+              <div class="metric-value">Odoo Developer</div>
+              <div class="metric-desc">FlibTech (April 2025 – Present)</div>
+            </div>
+
+            <div class="about-metric-block">
+              <div class="metric-label">Primary Framework</div>
+              <div class="metric-value">Odoo ERP (v17, v18, v19)</div>
+              <div class="metric-desc">Python, Odoo ORM, PostgreSQL & XML</div>
+            </div>
+
+            <div class="about-metric-block">
+              <div class="metric-label">Engineering Focus</div>
+              <div class="metric-value">Practical ERP Workflows</div>
+              <div class="metric-desc">Built for enterprise reliability & clean maintenance</div>
+            </div>
+
+            <div class="about-metric-block">
+              <div class="metric-label">Academic Qualification</div>
+              <div class="metric-value">BS in Computer Science</div>
+              <div class="metric-desc">Iqra University (Completed 2024)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. PROFESSIONAL EXPERIENCE (Requirement 10 & 11)
+         ======================================================================= -->
+    <section id="experience">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>03 — Experience Destination</span>
+        </div>
+        <h2 class="section-heading-primary">Professional Journey</h2>
+        <p class="section-lead-text">
+          Direct engineering experience in enterprise ERP implementations and application development.
+        </p>
+
+        <div class="experience-timeline">
+          <!-- Current Role: FlibTech -->
+          <div class="experience-card active-role">
+            <div class="exp-header-row">
+              <div>
+                <h3 class="exp-role-title">Odoo Developer</h3>
+                <div class="exp-company-badge">FlibTech</div>
+              </div>
+              <div class="exp-date-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>April 2025 – Present</span>
+              </div>
+            </div>
+
+            <p class="exp-description">
+              Working on custom Odoo development and ERP solutions, including custom modules, business workflows, Odoo customizations, integrations, debugging, and application improvements.
+            </p>
+
+            <div class="exp-disclaimer-box">
+              <strong>Professional Scope & Published Work:</strong>
+              My work includes the development of modules used within company client projects and modules published through the company's Odoo Apps account. The modules were developed by me as part of my professional engineering work at FlibTech.
+            </div>
+          </div>
+
+          <!-- Previous Technical Background: .NET -->
+          <div class="experience-card">
+            <div class="exp-header-row">
+              <div>
+                <h3 class="exp-role-title">.NET / Windows Forms Development</h3>
+                <div class="exp-company-badge">Earlier Technical Experience</div>
+              </div>
+              <div class="exp-date-pill">
+                <span>Enterprise Background</span>
+              </div>
+            </div>
+
+            <p class="exp-description">
+              Earlier technical experience included .NET Windows Forms development and SQL Server-based applications. Built desktop applications with relational database integrations, structured OOP architectures, form lifecycles, and database-driven data processing.
+            </p>
+
+            <div class="project-tech-pills">
+              <span class="tech-pill">C#</span>
+              <span class="tech-pill">.NET</span>
+              <span class="tech-pill">Windows Forms</span>
+              <span class="tech-pill">SQL Server</span>
+              <span class="tech-pill">Desktop Architecture</span>
+              <span class="tech-pill">Relational Databases</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. SKILLS SECTION (Requirement 12 - No fake percentages)
+         ======================================================================= -->
+    <section id="skills">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>04 — Technical Skills</span>
+        </div>
+        <h2 class="section-heading-primary">Technical Capabilities</h2>
+        <p class="section-lead-text">
+          A clear hierarchy of primary Odoo development competencies and supporting backend, database, and frontend technologies.
+        </p>
+
+        <div class="skills-wrapper">
+          <!-- Primary Odoo Skills -->
+          <div class="skills-primary-box">
+            <h3 class="skills-section-subtitle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              <span>Core Odoo Ecosystem (Primary Focus)</span>
+            </h3>
+            <p class="skills-section-caption">
+              Specialized expertise in Odoo models, ORM methods, views, security rules, and business automation.
+            </p>
+            <div class="odoo-skills-grid" id="odoo-skills-grid">
+              <!-- Populated by main.js -->
+            </div>
+          </div>
+
+          <!-- Supporting Technologies -->
+          <div>
+            <h3 class="skills-section-subtitle" style="margin-bottom: 20px;">
+              <span>Supporting Engineering Stack</span>
+            </h3>
+            <div class="supporting-skills-grid" id="supporting-skills-grid">
+              <!-- Populated by main.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. FEATURED PROJECTS (Requirement 13 & 14)
+         ======================================================================= -->
+    <section id="projects">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>05 — Featured Projects</span>
+        </div>
+        <h2 class="section-heading-primary">Featured ERP & Custom Projects</h2>
+        <p class="section-lead-text">
+          Practical Odoo modules and integrations developed to resolve real-world business challenges. Click any project card to inspect the technical architecture and my specific contribution.
+        </p>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Populated by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. ODOO MODULES I'VE DEVELOPED (Requirement 15 & 16)
+         ======================================================================= -->
+    <section id="odoo-modules">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>06 — Odoo Apps Destination</span>
+        </div>
+        <h2 class="section-heading-primary">Odoo Modules I've Developed</h2>
+        <p class="section-lead-text">
+          Modules developed as part of professional client solutions and published through company-owned Odoo Apps accounts.
+        </p>
+
+        <!-- Company Odoo Apps Disclaimer Banner -->
+        <div class="company-apps-banner">
+          <div class="banner-content">
+            <h3 class="banner-title">Professional Work Delivery Notice</h3>
+            <p class="banner-desc">
+              Some of my professional Odoo development work has been delivered through company-owned Odoo Apps accounts. The modules shown here were developed as part of my work at the company.
+            </p>
+          </div>
+          <div>
+            <a href="https://apps.odoo.com/apps/modules/browse?search=flibtech" target="_blank" rel="noopener noreferrer" class="btn-primary-action">
+              <span>View Company Odoo Apps</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="published-modules-grid" id="published-modules-grid">
+          <!-- Populated by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. ODOO DEVELOPMENT EXPERTISE (Requirement 18)
+         ======================================================================= -->
+    <section id="expertise">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>07 — Technical Expertise</span>
+        </div>
+        <h2 class="section-heading-primary">Odoo Development Expertise</h2>
+        <p class="section-lead-text">
+          A structured look into how I approach each layer of an Odoo ERP deployment.
+        </p>
+
+        <div class="expertise-grid">
+          <!-- 1. Odoo Backend -->
+          <div class="expertise-card">
+            <div class="expertise-header">
+              <div class="expertise-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="expertise-title">Odoo Backend</h3>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+              Developing scalable data models, business logic methods, computed fields, onchange handlers, and complex search domains using the Odoo ORM.
+            </p>
+            <div class="expertise-topics-list">
+              <span class="expertise-pill">Python</span>
+              <span class="expertise-pill">Odoo ORM</span>
+              <span class="expertise-pill">Model Inheritance</span>
+              <span class="expertise-pill">Compute & Onchange</span>
+              <span class="expertise-pill">SQL Constraints</span>
+            </div>
+          </div>
+
+          <!-- 2. Odoo UI -->
+          <div class="expertise-card">
+            <div class="expertise-header">
+              <div class="expertise-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <h3 class="expertise-title">Odoo UI & Views</h3>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+              Designing intuitive user interfaces via XML view inheritance, custom search filters, interactive Kanban boards, and dynamic QWeb PDF printouts.
+            </p>
+            <div class="expertise-topics-list">
+              <span class="expertise-pill">XML Views</span>
+              <span class="expertise-pill">Form & Tree</span>
+              <span class="expertise-pill">Kanban Views</span>
+              <span class="expertise-pill">QWeb Reports</span>
+              <span class="expertise-pill">OWL Basics</span>
+            </div>
+          </div>
+
+          <!-- 3. Security -->
+          <div class="expertise-card">
+            <div class="expertise-header">
+              <div class="expertise-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              </div>
+              <h3 class="expertise-title">Security & Permissions</h3>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+              Configuring watertight security perimeters using model access rights (ir.model.access), user groups, and row-level record rules (ir.rule).
+            </p>
+            <div class="expertise-topics-list">
+              <span class="expertise-pill">Access Rights (CSV)</span>
+              <span class="expertise-pill">Record Rules</span>
+              <span class="expertise-pill">User Groups</span>
+              <span class="expertise-pill">Portal Security</span>
+              <span class="expertise-pill">Data Segregation</span>
+            </div>
+          </div>
+
+          <!-- 4. Integrations -->
+          <div class="expertise-card">
+            <div class="expertise-header">
+              <div class="expertise-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </div>
+              <h3 class="expertise-title">Integrations & APIs</h3>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+              Interfacing Odoo with third-party web services through REST APIs, OAuth 2.0 handshakes, Webhooks, and asynchronous synchronization queues.
+            </p>
+            <div class="expertise-topics-list">
+              <span class="expertise-pill">REST APIs</span>
+              <span class="expertise-pill">OAuth 2.0</span>
+              <span class="expertise-pill">Webhooks</span>
+              <span class="expertise-pill">Scheduled Cron</span>
+              <span class="expertise-pill">Asana Connector</span>
+            </div>
+          </div>
+
+          <!-- 5. Business Processes -->
+          <div class="expertise-card">
+            <div class="expertise-header">
+              <div class="expertise-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              </div>
+              <h3 class="expertise-title">Business Processes</h3>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+              Adapting standard Odoo apps to organizational realities, spanning Sales quotations, Purchase workflows, Stock moves, and Invoicing rules.
+            </p>
+            <div class="expertise-topics-list">
+              <span class="expertise-pill">Sales & CRM</span>
+              <span class="expertise-pill">Purchasing & Bids</span>
+              <span class="expertise-pill">Inventory Tracking</span>
+              <span class="expertise-pill">Invoicing Logic</span>
+              <span class="expertise-pill">Approval Flows</span>
+            </div>
+          </div>
+
+          <!-- 6. Development & DevOps -->
+          <div class="expertise-card">
+            <div class="expertise-header">
+              <div class="expertise-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+              </div>
+              <h3 class="expertise-title">Development & Tooling</h3>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+              Maintaining clean Git commit histories, branching strategies, automated local test environments, and rigorous log-based troubleshooting.
+            </p>
+            <div class="expertise-topics-list">
+              <span class="expertise-pill">Git & GitHub</span>
+              <span class="expertise-pill">PyCharm</span>
+              <span class="expertise-pill">Log Tracing</span>
+              <span class="expertise-pill">Odoo Shell</span>
+              <span class="expertise-pill">PostgreSQL Admin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. "HOW I WORK" SECTION (Requirement 17)
+         ======================================================================= -->
+    <section id="how-i-work">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>08 — Engineering Process</span>
+        </div>
+        <h2 class="section-heading-primary">How I Work</h2>
+        <p class="section-lead-text">
+          A methodical 7-step engineering process designed to deliver dependable, bug-free Odoo modules that respect existing system architecture.
+        </p>
+
+        <div class="process-pipeline" id="process-pipeline">
+          <!-- Populated by main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         10. EDUCATION SECTION (Requirement 19)
+         ======================================================================= -->
+    <section id="education">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>09 — Academic Background</span>
+        </div>
+        <h2 class="section-heading-primary">Education</h2>
+        <p class="section-lead-text">
+          Formal academic foundation in computer science principles and software engineering.
+        </p>
+
+        <div class="education-card">
+          <h3 class="edu-degree-title">Bachelor of Science in Computer Science</h3>
+          <div class="edu-institution">Iqra University</div>
+          
+          <div class="edu-meta-row">
+            <span class="edu-badge">Completed: 2024</span>
+            <span class="edu-badge">Computer Science & Software Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         11. CONTACT & DESTINATION (Requirements 21 & 22)
+         ======================================================================= -->
+    <section id="contact">
+      <div class="section-container">
+        <div class="section-milestone-marker">
+          <span class="milestone-icon"></span>
+          <span>10 — Final Destination</span>
+        </div>
+
+        <!-- End of Journey Arrival Notice -->
+        <div class="destination-arrival-banner">
+          <div class="arrival-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Journey Completed</span>
+          </div>
+          <h2 class="arrival-title">Let's Build Something Useful With Odoo.</h2>
+          <p class="arrival-subtitle">
+            Whether you are looking for an Odoo developer for your team, need custom module development, or want to discuss an ERP workflow, feel free to get in touch.
+          </p>
+        </div>
+
+        <div class="contact-layout-grid">
+          <!-- Direct Channels -->
+          <div class="contact-channels-box">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/923114069952?text=Hello%20Kacho%20Zuhaib,%20I%20would%20like%20to%20discuss%20an%20Odoo%20opportunity." target="_blank" rel="noopener noreferrer" class="channel-card">
+              <div class="channel-info-left">
+                <div class="channel-icon-circle">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <div class="channel-name">WhatsApp</div>
+                  <div class="channel-value">+92 311 406 9952</div>
+                </div>
+              </div>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+
+            <!-- Email -->
+            <div class="channel-card" style="cursor: default;">
+              <div class="channel-info-left">
+                <div class="channel-icon-circle">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <div class="channel-name">Direct Email</div>
+                  <a href="mailto:zuhaibkacho12@gmail.com" class="channel-value" style="color: #ffffff; text-decoration: none;">zuhaibkacho12@gmail.com</a>
+                </div>
+              </div>
+              <button type="button" class="copy-pill-btn" id="copy-email-btn" title="Copy email address">
+                <span>Copy</span>
+                <span class="tooltip-copied" id="copy-email-tooltip">Copied!</span>
+              </button>
+            </div>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/kacho-zuhaib/" target="_blank" rel="noopener noreferrer" class="channel-card">
+              <div class="channel-info-left">
+                <div class="channel-icon-circle">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div>
+                  <div class="channel-name">Professional Network</div>
+                  <div class="channel-value">linkedin.com/in/kacho-zuhaib</div>
+                </div>
+              </div>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/zuhaibkacho14" target="_blank" rel="noopener noreferrer" class="channel-card">
+              <div class="channel-info-left">
+                <div class="channel-icon-circle">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div>
+                  <div class="channel-name">Code Profile</div>
+                  <div class="channel-value">github.com/zuhaibkacho14</div>
+                </div>
+              </div>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Quick Message Composer -->
+          <div class="quick-inquiry-card">
+            <h3 class="inquiry-heading">Send an Inquiry / Discuss Work</h3>
+            <form id="contact-quick-form" onsubmit="return false;">
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Topic / Requirement</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. Custom Odoo Module / Job Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Project Details / Message</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Describe the workflow requirement, timeline, or position details..." required></textarea>
+              </div>
+
+              <button type="button" id="compose-send-btn" class="btn-primary-action w-full text-center">
+                <span>Compose Email Draft</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       FOOTER (Requirement 23)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="section-container">
+      <div class="footer-top-row">
+        <div class="footer-brand">
+          <span class="footer-name">Kacho Zuhaib Hassan</span>
+          <span class="footer-role">Odoo Developer | ERP Developer</span>
+        </div>
+
+        <div class="footer-links-row">
+          <a href="https://www.linkedin.com/in/kacho-zuhaib/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+          <a href="https://github.com/zuhaibkacho14" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+          <a href="mailto:zuhaibkacho12@gmail.com" class="footer-link">Email</a>
+          <a href="https://wa.me/923114069952" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp</a>
+          <a href="https://apps.odoo.com/apps/modules/browse?search=flibtech" target="_blank" rel="noopener noreferrer" class="footer-link">Company Odoo Apps</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>© 2026 Kacho Zuhaib Hassan. All rights reserved.</div>
+        <div>Engineered with precision for enterprise Odoo & ERP development.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       INTERACTIVE PROJECT DETAILS MODAL (Requirement 36)
+       ========================================================================= -->
+  <div class="modal-backdrop hidden" id="project-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="modal-window">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close project modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div id="modal-dynamic-content">
+        <!-- Injected dynamically by main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts: Local Three.js & GSAP for 100% offline & fast rendering -->
+  <script src="js/three.min.js"></script>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/projects-data.js"></script>
+  <script src="js/journey-3d.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
